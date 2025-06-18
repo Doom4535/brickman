@@ -199,7 +199,7 @@ PACKAGES
     linux
     ${BRICKMAN_TEST_PACKAGES}
 CUSTOM_VAPIS
-    bindings/*.vapi
+    "${CMAKE_CURRENT_SOURCE_DIR}/bindings/*.vapi"
 OPTIONS
     --target-glib=2.40
     --thread
